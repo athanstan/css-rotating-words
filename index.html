@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSS Rotating Words</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery link -->
+    <script type = "text/javascript" src = "js/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    
 </head>
 <body>
      
@@ -14,19 +21,57 @@
                 <h1>CSS Rotating Words</h1>
             </header>
            
+           
             <section class="wrapper">
+
+                    <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SlideVert</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SlideHor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FadeIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FlipVert</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FlipHor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Anti-ClockWise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ClockWise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Push</a>
+                            </li>
+                        </ul>
                 
                 <h2 class="sentence">I created this effect because 
-                  <div class="slidingVertical">
+                  <div id="sentence-rot" class="slidingVertical">
                     <span>I was bored.</span>
                     <span>I can.</span>
                     <span>I needed it.</span>
-                    <span>Why not?.</span>
+                    <span>Why not?</span>
                     <span>CSS Animations B***h.</span>
                   </div>
                 </h2>
                 
             </section>    
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script src="js/main.js"></script>
+
 </body>
 </html>

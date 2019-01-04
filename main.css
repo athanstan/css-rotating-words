@@ -6,28 +6,40 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 /*Heading1*/
 h1{
 	color: #fff;
 	font-size: 44px;
-	margin-top: 40px;
+	margin-top: 80px;
 	text-align: center;
 }
 /*Sentence*/
 .sentence{
      color: #222;
      font-size: 30px;
+     font-weight: 600;
      text-align: left;
+     padding-top: 40px;
+     padding-left: 20px;
 }
 /*Wrapper*/
 .wrapper{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #F8F9FA;
     font-family: 'Raleway', sans-serif;
     margin: 100px auto;
-    padding: 40px 40px;
+    padding: 5px 5px 40px 5px;
     position: relative;
     width: 70%;
+}
+
+.nav{
+    background: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
 }
 
 
@@ -40,7 +52,7 @@ h1{
 	animation: topToBottom 12.5s linear infinite 0s;
 	-ms-animation: topToBottom 12.5s linear infinite 0s;
 	-webkit-animation: topToBottom 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -76,7 +88,7 @@ h1{
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
-/* @-webkit-keyframes topToBottom{
+@-webkit-keyframes topToBottom{
 	0% { opacity: 0; }
 	5% { opacity: 0; -webkit-transform: translateY(-50px); }
 	10% { opacity: 1; -webkit-transform: translateY(0px); }
@@ -93,7 +105,7 @@ h1{
 	30% { opacity: 0; -ms-transform: translateY(50px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
-} */
+}
 
 /*Horizontal Sliding*/
 .slidingHorizontal{
@@ -104,7 +116,7 @@ h1{
 	animation: leftToRight 12.5s linear infinite 0s;
 	-ms-animation: leftToRight 12.5s linear infinite 0s;
 	-webkit-animation: leftToRight 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -168,7 +180,7 @@ h1{
 	animation: fadeEffect 12.5s linear infinite 0s;
 	-ms-animation: fadeEffect 12.5s linear infinite 0s;
 	-webkit-animation: fadeEffect 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -232,7 +244,7 @@ h1{
 	animation: vertical 12.5s linear infinite 0s;
 	-ms-animation: vertical 12.5s linear infinite 0s;
 	-webkit-animation: vertical 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -296,7 +308,7 @@ h1{
 	animation: horizontal 12.5s linear infinite 0s;
 	-ms-animation: horizontal 12.5s linear infinite 0s;
 	-webkit-animation: horizontal 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -360,7 +372,7 @@ h1{
 	animation: anti 12.5s linear infinite 0s;
 	-ms-animation: anti 12.5s linear infinite 0s;
 	-webkit-animation: anti 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -424,7 +436,7 @@ h1{
 	animation: clock 12.5s linear infinite 0s;
 	-ms-animation: clock 12.5s linear infinite 0s;
 	-webkit-animation: clock 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -488,7 +500,7 @@ h1{
 	animation: pop 12.5s linear infinite 0s;
 	-ms-animation: pop 12.5s linear infinite 0s;
 	-webkit-animation: pop 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -552,7 +564,7 @@ h1{
 	animation: push 12.5s linear infinite 0s;
 	-ms-animation: push 12.5s linear infinite 0s;
 	-webkit-animation: push 12.5s linear infinite 0s;
-	color: #b6ecff;
+	color: #25c6ff;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
