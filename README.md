@@ -17,7 +17,9 @@ Just
 ```
 git clone <repo>
 ```
-in whatever folder you want, and then double click the *indec.html* file.
+in whatever folder you want, and then double click the *index.html* file. 
+
+![alt](https://i.postimg.cc/cJGnptBn/css-rotate-words.gif)
 
 
 ## Running the tests
